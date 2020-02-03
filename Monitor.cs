@@ -136,14 +136,14 @@ namespace AutoPingNotify_GUI
                                 // Ping timed out
                                 case IPStatus.TimedOut:
                                     Message = string.Format("Error: Connection to the host: {0} [{1}] has timed out...", pingReply.Address, host);
-                                    Output.WriteLine(Message, Color.OrangeRed);
+                                    //Output.WriteLine(Message, Color.OrangeRed);
                                     errorCount++;
                                     break;
 
                                 // Ping failed
                                 default:
                                     Message = string.Format("Error: Ping failed: {0}", pingReply.Status.ToString());
-                                    Output.WriteLine(Message, Color.OrangeRed);
+                                    //Output.WriteLine(Message, Color.OrangeRed);
                                     errorCount++;
                                     break;
                             }
