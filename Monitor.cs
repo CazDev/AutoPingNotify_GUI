@@ -129,7 +129,7 @@ namespace AutoPingNotify_GUI
                             {
                                 // Ping reply
                                 case IPStatus.Success:
-                                    Output.LogAppend(string.Format("Reply from {0}: bytes={1} time={2}ms TTL={3} \n", pingReply.Address, pingReply.Buffer.Length, pingReply.RoundtripTime, pingReply.Options.Ttl), Color.White);
+                                    //Output.LogAppend(string.Format("Reply from {0}: bytes={1} time={2}ms TTL={3} \n", pingReply.Address, pingReply.Buffer.Length, pingReply.RoundtripTime, pingReply.Options.Ttl), Color.White);
                                     avgReplyTime += pingReply.RoundtripTime;
                                     break;
 

@@ -251,7 +251,6 @@
             this.logOutput.MaxLength = 0;
             this.logOutput.Name = "logOutput";
             this.logOutput.ReadOnly = true;
-            this.logOutput.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.logOutput.Size = new System.Drawing.Size(721, 537);
             this.logOutput.TabIndex = 0;
             this.logOutput.Text = "";
@@ -380,7 +379,7 @@
             // tmrLogClear
             // 
             this.tmrLogClear.Enabled = true;
-            this.tmrLogClear.Interval = 3600000;
+            this.tmrLogClear.Interval = 600000;
             this.tmrLogClear.Tick += new System.EventHandler(this.tmrLogClear_Tick);
             // 
             // btnConfigHelpOk

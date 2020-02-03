@@ -119,7 +119,7 @@ namespace AutoPingNotify_GUI
 
         private void txtPingAlert_Enter(object sender, EventArgs e) // Clear placeholder text
         {
-            if (txtPingAlertThreshold.Text == "Ping Alert Threshold")
+            if (txtPingAlertThreshold.Text == "Ping Threshold")
             {
                 txtPingAlertThreshold.ForeColor = Color.LightGray;
                 txtPingAlertThreshold.Clear();
@@ -131,7 +131,7 @@ namespace AutoPingNotify_GUI
             if (string.IsNullOrEmpty(txtPingAlertThreshold.Text))
             {
                 txtPingAlertThreshold.ForeColor = Color.Gray;
-                txtPingAlertThreshold.Text = "Ping Alert Threshold";
+                txtPingAlertThreshold.Text = "Ping Threshold";
             }
         }
 
@@ -160,7 +160,7 @@ namespace AutoPingNotify_GUI
 
         private void txtCpuTheshold_Enter(object sender, EventArgs e)
         {
-            if (txtCpuTheshold.Text == "CPU Monitor Threshold")
+            if (txtCpuTheshold.Text == "CPU Threshold")
             {
                 txtCpuTheshold.ForeColor = Color.LightGray;
                 txtCpuTheshold.Clear();
@@ -172,7 +172,7 @@ namespace AutoPingNotify_GUI
             if (string.IsNullOrEmpty(txtCpuTheshold.Text))
             {
                 txtCpuTheshold.ForeColor = Color.Gray;
-                txtCpuTheshold.Text = "CPU Monitor Threshold";
+                txtCpuTheshold.Text = "CPU Threshold";
             }
         }
 
