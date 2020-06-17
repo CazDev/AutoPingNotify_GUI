@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using System.Net;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 using System.Drawing;
@@ -360,6 +356,10 @@ namespace AutoPingNotify_GUI
         private void btnMailHelpOk_Click(object sender, EventArgs e)
         {
             pnlMailHelp.Hide();
+        }
+
+        private void btnSaveAverages_Click(object sender, EventArgs e)
+        {
         }
     }
 

@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace AutoPingNotify_GUI
 {
+
     public static class SaveState
     {
         public static readonly string ConfigPath = "config.xml";

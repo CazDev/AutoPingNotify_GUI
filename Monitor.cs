@@ -7,7 +7,6 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Windows.Forms;
 
 namespace AutoPingNotify_GUI
 {

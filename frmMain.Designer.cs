@@ -70,6 +70,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnMailHelpOk = new System.Windows.Forms.Button();
+            this.btnSaveAverages = new System.Windows.Forms.Button();
             this.pnlConfigHelp.SuspendLayout();
             this.pnlMailHelp.SuspendLayout();
             this.SuspendLayout();
@@ -627,12 +628,30 @@
             this.btnMailHelpOk.UseVisualStyleBackColor = false;
             this.btnMailHelpOk.Click += new System.EventHandler(this.btnMailHelpOk_Click);
             // 
+            // btnSaveAverages
+            // 
+            this.btnSaveAverages.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSaveAverages.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.btnSaveAverages.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSaveAverages.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.btnSaveAverages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveAverages.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveAverages.ForeColor = System.Drawing.Color.LightBlue;
+            this.btnSaveAverages.Location = new System.Drawing.Point(81, 461);
+            this.btnSaveAverages.Name = "btnSaveAverages";
+            this.btnSaveAverages.Size = new System.Drawing.Size(134, 41);
+            this.btnSaveAverages.TabIndex = 30;
+            this.btnSaveAverages.Text = "Save Averages";
+            this.btnSaveAverages.UseVisualStyleBackColor = false;
+            this.btnSaveAverages.Click += new System.EventHandler(this.btnSaveAverages_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(1038, 561);
+            this.Controls.Add(this.btnSaveAverages);
             this.Controls.Add(this.pnlMailHelp);
             this.Controls.Add(this.pnlConfigHelp);
             this.Controls.Add(this.logOutput);
@@ -661,7 +680,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimumSize = new System.Drawing.Size(850, 550);
             this.Name = "frmMain";
-            this.Text = "Auto Ping Notify";
+            this.Text = "ki";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.pnlConfigHelp.ResumeLayout(false);
@@ -714,6 +733,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnMailHelpOk;
+        private System.Windows.Forms.Button btnSaveAverages;
     }
 }
 
